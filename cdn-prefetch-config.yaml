@@ -12,5 +12,5 @@ resources:
     'europe-west2-a', 'europe-west3-a', 'europe-west4-a', 'europe-west6-a', 'northamerica-northeast1-a',
     'southamerica-east1-a', 'us-central1-a', 'us-east1-b', 'us-east4-a', 'us-west1-a' , 'us-west2-a', 'us-west3-a', 'us-west4-a'
     ]
-    machineType: f1-micro
+    machineType: e2-micro
     instance-name: cdn-prefetch
