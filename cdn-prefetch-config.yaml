@@ -7,10 +7,11 @@ resources:
 - name: benchmark
   type: multi-instance.jinja
   properties:
-    zones: ['asia-east1-a', 'asia-east2-a', 'asia-northeast1-a', 'asia-northeast2-a', 'asia-northeast3-a', 'asia-south1-a',
-    'asia-southeast1-a', 'asia-southeast2-a', 'australia-southeast1-a', 'europe-north1-a', 'europe-west1-b',
-    'europe-west2-a', 'europe-west3-a', 'europe-west4-a', 'europe-west6-a', 'northamerica-northeast1-a',
-    'southamerica-east1-a', 'us-central1-a', 'us-east1-b', 'us-east4-a', 'us-west1-a' , 'us-west2-a', 'us-west3-a', 'us-west4-a'
-    ]
+    zones: ['asia-east1-a', 'asia-east2-b', 'asia-northeast1-a', 'asia-northeast2-b', 'asia-northeast3-c', 'asia-south1-a', 
+    'asia-south2-b', 'asia-southeast1-a', 'asia-southeast2-b', 'australia-southeast1-a', 'australia-southeast2-b', 
+    'europe-central2-a', 'europe-north1-a', 'europe-southwest1-b', 'europe-west1-b', 'europe-west2-a', 'europe-west3-a', 
+    'europe-west4-a', 'europe-west6-a', 'europe-west8-b', 'europe-west9-b', 'northamerica-northeast1-a', 
+    'northamerica-northeast2-a', 'southamerica-east1-a', 'southamerica-west1-b', 'us-central1-a', 'us-east1-b', 
+    'us-east4-a', 'us-east5-b', 'us-south1-b', 'us-west1-a', 'us-west2-a', 'us-west3-a', 'us-west4-a']
     machineType: e2-micro
     instance-name: cdn-prefetch
